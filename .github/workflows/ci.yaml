@@ -27,6 +27,6 @@ jobs:
         pip install pytest streamlit
 
     - name: Run tests
-      run:
-        pytest_test.py
-        
+      run: |
+        pytest _test.py
+
